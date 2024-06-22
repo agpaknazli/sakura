@@ -61,6 +61,7 @@ header{
     border: 3px solid rgb(74, 121, 4);
  border-radius: 1rem;
  background-color: azure;
+ flex-wrap: wrap;
 
 }
 
@@ -69,6 +70,7 @@ header{
     background-color: antiquewhite;
     border-bottom: 2rem solid grey;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .sticky{
