@@ -1,0 +1,194 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Noto+Sans+JP:wght@100..900&family=Playwrite+NZ:wght@100..400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contanier{
+   min-height: 100vb;
+   max-width: 100%;
+}
+
+
+header{
+    background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+background-attachment: fixed;
+padding: 2rem;
+}
+
+header img{
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid grey;
+ border-radius: 50%;
+}
+
+header img:hover{
+    width: 10rem;
+    height: 10rem;
+}
+
+.sing-in{
+    display: flex;
+align-items: center;
+   gap: 4rem;
+   font-size: 2rem;
+   
+   
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.a{
+    font-size: 3rem;
+}
+.sing-in a{
+    text-align: center;
+    color: rgb(182, 61, 233);
+    text-decoration: none;
+    border: 3px solid rgb(74, 121, 4);
+ border-radius: 1rem;
+ background-color: azure;
+
+}
+
+
+.sing-in a:hover{
+    background-color: antiquewhite;
+    border-bottom: 2rem solid grey;
+    text-align: center;
+}
+
+.sticky{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top:5rem;
+
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.sticky a{
+ 
+    font-family: "Playwrite NZ", cursive;
+    font-optical-sizing: auto;
+    font-weight:bold;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.sticky a:hover{
+    color: aliceblue;
+    border:2px outset #FFFB7D;
+}
+
+
+
+.banner{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url(./img/trees-7500081_640.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   background-size: cover;
+   height: 65vh;
+
+   
+  
+}
+.son{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin-left: 5rem;
+   color: aliceblue;
+   font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  text-shadow:
+  1px 1px 2px black,
+  0 0 1em blue,
+  0 0 0.2em blue;
+color: white;
+}
+
+.son button{
+    background-color: rgb(215, 220, 203);
+    color: rgb(239, 57, 87);
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1rem;
+   
+}
+
+.son button:hover{
+    cursor: pointer;
+    background-color: rgb(209, 42, 42);
+    color: #0ed24f;
+}
+
+main{
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    background-color: #ebcac92a;
+    background-color: #85FFBD;
+background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+
+}
+main h1{
+ 
+    font-size: 5rem;
+    color: #FAACA8;
+  
+}
+
+
+.resim img{
+    /* display: flex;
+justify-content: end;
+align-items: end; */
+    width: 6rem;
+    height: 6rem;
+position: fixed;
+bottom: 2rem;
+right: 2rem;
+
+}
+
+.resim img:hover{
+    width: 10rem;
+    height: 10rem;
+    cursor: pointer;
+}
+
+main p{
+width: 50%;
+height:120vh;
+    overflow-y: scroll;
+    scrollbar-color: pink rgb(160, 225, 205);
+}
